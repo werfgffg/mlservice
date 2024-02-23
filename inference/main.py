@@ -71,7 +71,7 @@ print("Done preprocessing")
 
 app = Flask(__name__)
 api = Api(app, 
-          version='0.3', 
+          version='0.4', 
           title='Sentiment Inference API', 
           description='API that demos how to infer the sentiment out of a sentence')
 
